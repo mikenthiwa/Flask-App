@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='Bootstrap/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='Bootstrap/css/booksnotreturned.css') }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=roboto">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light navbar-default">
+        <a class="navbar-brand" href="#">Hello-Books</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+  <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Library<span class="sr-only">(current)</span></a>
+      </li>
+        
+        <li class="nav-item">
+        <a class="nav-link" href="#">Available</a>
+      </li>
+        
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Profile</a>
+      </li>
+        
+      <li class="nav-item">
+        <a class="nav-link" href="#">Histroy</a>
+      </li>
+        
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Log In/Log Out
+        </a>
+          
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Log Out</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+    <div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">     
+            <div class="profleimage_cont"></div>
+        </div>
+    </div>
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2">
+            <div class="imgcont"></div>
+        </div>
+            <div class="col-md- custom">
+                <ul class="nav justify-content-center nav nav-pills nav-tabs">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">About me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Books not returned</a>
+              </li>
+            </ul>   
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="container-fluid">
+        <div class="row">
+            
+            <div class="col-sm-">
+                <a href="#"><img class ="bookimageinhome" src="{{ url_for('static', filename='images/Big data.jpg') }}"><p>Book Title Here</p></a>
+  
+            </div>
+            
+            
+            <div class="col-sm-">
+                <a href="#"><img class ="bookimageinhome" src="{{ url_for('static', filename='images/black widow.jpg') }}"><p>Book Title Here</p></a>
+  
+            </div>
+            
+            <div class="col-sm-">
+                <a href="#"><img class ="bookimageinhome" src="{{ url_for('static', filename='images/Fever Three.jpg') }}"><p>Book Title Here</p></a>
+              </div>
+            
+            <div class="col-sm-">
+                <a href="#"><img class ="bookimageinhome" src="{{ url_for('static', filename='images/Death with innocence.jpg') }}"><p>Book Title Here</p></a>
+            </div>
+            
+            <div class="col-sm-">
+                <a href="#"><img class ="bookimageinhome" src="{{ url_for('static', filename='images/gone girl.jpg') }}"><p>Book Title Here</p></a>
+              </div>
+            
+              <div class="col-sm-">
+                <a href="#"><img class ="bookimageinhome" src="{{ url_for('static', filename='images/i dreamed of Africa.jpg') }}"><p>Book Title Here</p></a>
+              </div>
+            
+              <div class="col-sm-">
+                <a href="#"><img class ="bookimageinhome" src="{{ url_for('static', filename='images/into the water.jpg') }}"><p>Book Title Here</p></a>
+              </div>
+            
+              <div class="col-sm-">
+                <a href="#"><img class ="bookimageinhome" src="images/harry%20potter%20and%20chamberof%20secret%20book.jpg"><p>Book Title Here</p></a>
+              </div>
+            
+              <div class="col-sm-">
+                <a href="#"><img class ="bookimageinhome" src="images/harry%20potter%20and%20chamberof%20secret%20book.jpg"><p>Book Title Here</p></a>
+              </div>
+            
+        </div>    
+        </div>
+    
+        <script src="{{ url_for('static', filename='jquery/jquery-3.3.1.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='Bootstrap/js/bootstrap.min.js') }}"></script>
+
+</body>
+</html> 
+ 

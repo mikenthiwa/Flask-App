@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Modify Book Information</title>
+    <link rel="stylesheet" href = "{{ url_for('static', filename='Bootstrap/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href = "{{ url_for('static', filename='Bootstrap/css/Addabook.css') }}">
+</head>
+<body>
+
+   
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Administrator</a>
+    </nav>
+    
+    <div class="container-fluid">
+        <div class="row">
+            
+            <div class="col-md-6">
+                <div class="admintaskcontainer">
+                    <a class="admintask" href="#">Add Book</a>
+                </div>
+                
+                <div class="admintaskcontainer">
+                    <a class="admintask"  href="#">Modify book information</a>
+                </div>
+                
+            <div class="admintaskcontainer">
+            <a class="admintask" href="#">Delete a book</a>
+                </div>
+                
+                 <div class="admintaskcontainer">
+                <a class="admintask" href="#">Get books</a>
+                </div>
+                
+            </div>
+            
+            <div class="container-fluid">
+                <div class="row">
+                <div class="col-md-8">
+                <div class="form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" d="formGroupExampleInput" placeholder="Title">
+                        </div>
+
+                        <div class="form-group">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Description.." rows="5"></textarea>
+                        </div>
+
+                        <div class="custom-file">
+                          <input type="file" class="custom-file-input" id="customFile">
+                          <label class="custom-file-label" for="customFile">Choose file</label> 
+                        </div>
+                        <button type="submit" class="btn btn-primary">Add</button>
+                        
+                        
+                    </form>
+                </div>    
+                </div>
+                </div>
+            </div>
+            
+            
+    </div>
+    </div>
+  
+
+    <script src="{{ url_for('static', filename='jquery/jquery-3.3.1.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='Bootstrap/js/bootstrap.min.js') }}"></script>
+    
+    
+</body>
+</html>

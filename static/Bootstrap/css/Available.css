@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(home-book.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.navbar{
+    background: rgba(0,0,0,.5);
+    border-bottom: 0.12em solid rgba(0,0,0,.5);
+    border-bottom-right-radius: 0.8em;
+    border-bottom-left-radius: 0.8em;
+}
+
+.navbar-toggler:active{
+    background: rgba(0,0,0,.5);
+}
+
+.dropdown-menu{
+    background: rgba(0,0,0,.5);
+}
+
+.nav-link{
+    font-size: 2rem;
+    color: yellow;
+    font-family: Tangerine;
+    font-weight: 700
+}
+
+.navbar-brand{
+    
+    font-family: Tangerine;
+    font-size: 48px;
+    font-weight: 900
+              
+}
